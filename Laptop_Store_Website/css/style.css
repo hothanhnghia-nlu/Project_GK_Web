@@ -810,6 +810,7 @@ textarea.input {
 }
 
 .product .product-body {
+  /* height: 200px; */
   position: relative;
   padding: 15px;
   background-color: #FFF;
@@ -826,6 +827,7 @@ textarea.input {
 .product .product-body .product-name {
   text-transform: uppercase;
   font-size: 14px;
+  height: 30px;
 }
 
 .product .product-body .product-name>a {
