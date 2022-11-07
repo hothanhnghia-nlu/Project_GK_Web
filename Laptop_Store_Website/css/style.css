@@ -2592,7 +2592,7 @@ nav li .dropdown.sub-dropdown li:last-child a{
 #back_top {
   height: 50px;
   width: 50px;
-  background: #2b80dd;
+  background: rgb(199, 199, 199);
   color: #fff;
   border-radius: 50%;
   justify-content: center;
@@ -2601,4 +2601,12 @@ nav li .dropdown.sub-dropdown li:last-child a{
   position: fixed;
   bottom: 40px;
   right: 20px;
+  cursor: pointer;
+  animation: ease 1.5s;
+}
+#back_top.backtop-open {
+  display: flex;
+}
+#back_top:hover{
+  background-color: #2b80dd;
 }
