@@ -2589,7 +2589,7 @@ nav li .dropdown.sub-dropdown li:last-child a{
 .contact-us .form .button .btn:hover {
   background: #2b80dd;
 }
-#back_top {
+#backtop {
   height: 50px;
   width: 50px;
   background: rgb(199, 199, 199);
@@ -2597,16 +2597,16 @@ nav li .dropdown.sub-dropdown li:last-child a{
   border-radius: 50%;
   justify-content: center;
   align-items: center;
-  display: flex;
+  display: none;
   position: fixed;
   bottom: 40px;
   right: 20px;
   cursor: pointer;
   animation: ease 1.5s;
 }
-#back_top.backtop-open {
+#backtop.backtop-open {
   display: flex;
 }
-#back_top:hover{
+#backtop:hover{
   background-color: #2b80dd;
 }
