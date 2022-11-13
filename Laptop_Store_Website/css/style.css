@@ -2251,10 +2251,17 @@ textarea.input {
 .shopping-cart .total-amount{
 	margin-top:50px;
 }
+.shopping-cart .total-amount .left .coupon form {
+  background: #dcdde1;
+  width: 325px;
+  height: 70px;
+}
 .shopping-cart .total-amount .left .coupon form input {
 	width: 220px;
 	display: inline-block;
 	height: 48px;
+    margin-left: 8px;
+    margin-top: 10px;
 	color: #333;
 	padding: 0px 20px;
 	border: none;
@@ -2264,15 +2271,15 @@ textarea.input {
 	display: inline-block;
 	height: 48px;
 	border: navajowhite;
-	margin-left: 4px;
+	margin-left: 7px;
 	background: transparent;
-	color: #333;
-	background: #fff;
+	color: #fff;
+	background: #2b80dd;
 	box-shadow: 0px 0px 5px #00000012;
 }
 .shopping-cart .total-amount .left .coupon form .btn:hover{
-	background:#fff;
-	color:#2b80dd;
+	background:#2b80dd;
+	color:#fff;
 }
 .shopping-cart .total-amount .left label{
 	font-size:22px;
