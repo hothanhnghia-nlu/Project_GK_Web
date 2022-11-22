@@ -196,6 +196,7 @@
 
 .forgot_pwd form .input {
     border: 1px solid black;
+    border-radius: 7px;
 }
 
 .forgot_pwd form button a {

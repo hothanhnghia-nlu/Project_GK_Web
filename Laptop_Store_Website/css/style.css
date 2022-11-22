@@ -2599,8 +2599,8 @@ nav li .dropdown.sub-dropdown li:last-child a{
 #backtop {
   height: 50px;
   width: 50px;
-  background: rgb(199, 199, 199);
-  color: #fff;
+  background: #2b80dd;
+  color: yellow;
   border-radius: 50%;
   justify-content: center;
   align-items: center;
@@ -2615,5 +2615,5 @@ nav li .dropdown.sub-dropdown li:last-child a{
   display: flex;
 }
 #backtop:hover{
-  background-color: #2b80dd;
+  background-color: rgb(199, 199, 199);
 }
