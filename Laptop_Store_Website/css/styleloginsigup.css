@@ -119,7 +119,7 @@
     width: 360px;
     height: 456px;
     border: 3px solid #2b80dd;
-    margin: 0 auto;
+    margin: 20px auto;
     border-radius: 8px;
 }
 #forms .form{
@@ -155,7 +155,7 @@
     width: 370px;
     height: 610px;
     border: 3px solid #2b80dd;
-    margin: 0 auto;
+    margin: 20px auto;
     border-radius: 8px;
 }
 
@@ -183,41 +183,40 @@
     text-align: center;
 }
 
-.forgot_pwd p {
-    font-size: 24px;
+.forgot_pwd .heading {
+    font-size: 30px;
     font-weight: bold;
+}
+
+.forgot_pwd .note {
+    font-size: 15px;
+    margin-top: 30px;
+    margin-bottom: 15px;
 }
 
 .forgot_pwd form {
     position: relative;
     max-width: 450px;
-    margin: 30px auto;
+    margin: auto;
 }
 
 .forgot_pwd form .input {
     border: 1px solid black;
-    border-radius: 7px;
+    border-radius: 4px;
 }
 
 .forgot_pwd form button a {
     font-weight: bold;
+    font-size: 18px;
     color: #FFF;
 }
 
 .forgot_pwd form .submit-btn {
-    width: 70px;
+    width: 450px;
     height: 40px;
     background: #2b80dd;
     border: none;
+    border-radius: 40px;
     margin-top: 20px;
-}
-
-.forgot_pwd form .cancel-btn {
-    width: 70px;
-    height: 40px;
-    background: #8395a7;
-
-    border: none;
-    margin-top: 20px;
-    margin-left: 50px;
+    margin-bottom: 10px;
 }
