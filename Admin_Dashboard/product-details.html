@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Quản lý đơn hàng</title>
+    <title>Thông tin sản phẩm</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
     <link href="assets/vendor/fonts/circular-std/style.css" rel="stylesheet">
@@ -211,9 +211,9 @@
         <!-- pageheader -->
         <!-- ============================================================== -->
         <div class="row">
-            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                 <div class="page-header">
-                    <h2 class="pageheader-title">QUẢN LÝ ĐƠN HÀNG</h2>
+                    <h2 class="pageheader-title">THÔNG TIN SẢN PHẨM</h2>
                 </div>
             </div>
         </div>
@@ -222,113 +222,92 @@
         <!-- ============================================================== -->
         <div class="row">
             <!-- ============================================================== -->
-            <!-- data table  -->
+            <!-- figure -->
             <!-- ============================================================== -->
-            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                 <div class="card">
-                    <div class="card-header">
-                        <h5 class="mb-0">Quản lý đơn hàng</h5>
-                    </div>
+                    <h5 class="card-header">Hình minh họa cho sản phẩm</h5>
                     <div class="card-body">
-                        <div class="table-responsive">
-                            <table id="example" class="table table-striped table-bordered second"
-                                   style="width:100%">
-                                <thead>
-                                <tr>
-                                    <th>STT</th>
-                                    <th>Mã đơn hàng</th>
-                                    <th>Tên khách hàng</th>
-                                    <th>Ngày đặt hàng</th>
-                                    <th>Địa chỉ</th>
-                                    <th>Nhóm lệnh</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <tr>
-                                    <td>1</td>
-                                    <td>HD010</td>
-                                    <td>Nguyễn Tiến Minh</td>
-                                    <td>01/11/2022</td>
-                                    <td>Quận 8, Tp.HCM, Việt Nam</td>
-                                    <td>
-                                        <div class="btn-group ml-auto">
-                                            <button class="btn btn-sm btn-outline-light">Edit</button>
-                                            <button class="btn btn-sm btn-outline-light">
-                                                <i class="far fa-trash-alt"></i>
-                                            </button>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td>HD013</td>
-                                    <td>Lê Văn Hải</td>
-                                    <td>07/11/2022</td>
-                                    <td>Quận 12, Tp.HCM, Việt Nam</td>
-                                    <td>
-                                        <div class="btn-group ml-auto">
-                                            <button class="btn btn-sm btn-outline-light">Edit</button>
-                                            <button class="btn btn-sm btn-outline-light">
-                                                <i class="far fa-trash-alt"></i>
-                                            </button>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td>HD018</td>
-                                    <td>Trần Đình Long</td>
-                                    <td>09/11/2022</td>
-                                    <td>Tp.Dĩ An, T.Bình Dương, Việt Nam</td>
-                                    <td>
-                                        <div class="btn-group ml-auto">
-                                            <button class="btn btn-sm btn-outline-light">Edit</button>
-                                            <button class="btn btn-sm btn-outline-light">
-                                                <i class="far fa-trash-alt"></i>
-                                            </button>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>4</td>
-                                    <td>HD027</td>
-                                    <td>Võ Nhật Hạ</td>
-                                    <td>10/11/2022</td>
-                                    <td>H.Long Khánh, T.Đồng Nai, Việt Nam</td>
-                                    <td>
-                                        <div class="btn-group ml-auto">
-                                            <button class="btn btn-sm btn-outline-light">Edit</button>
-                                            <button class="btn btn-sm btn-outline-light">
-                                                <i class="far fa-trash-alt"></i>
-                                            </button>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>5</td>
-                                    <td>HD030</td>
-                                    <td>Trần Hoàng Dũng</td>
-                                    <td>12/11/2022</td>
-                                    <td>Tp.Nha Trang, T.Khánh Hòa, Việt Nam</td>
-                                    <td>
-                                        <div class="btn-group ml-auto">
-                                            <button class="btn btn-sm btn-outline-light">Edit</button>
-                                            <button class="btn btn-sm btn-outline-light">
-                                                <i class="far fa-trash-alt"></i>
-                                            </button>
-                                        </div>
-                                    </td>
-                                </tr>
-                                </tbody>
-                            </table>
+                        <div class="card">
+                            <img class="img-fluid" src="assets/images/Macbook Pro M1.jpg" alt="Card image cap">
+                        </div>
+                        <div class="form-group">
+                            <label class="">Tải hình lên</label>
+                            <div class="input-group mb-3">
+                                <input disabled type="text" placeholder="Chọn ảnh" class="form-control">
+                                <div class="input-group-append">
+                                    <button type="button" class="btn btn-primary">Browse</button>
+                                    <button type="button" class="btn btn-secondary">Upload</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- ============================================================== -->
-            <!-- end data table  -->
-            <!-- ============================================================== -->
         </div>
+        <!-- ============================================================== -->
+        <!-- end figure -->
+        <!-- ============================================================== -->
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+            <div class="card">
+                <h5 class="card-header">Thông tin chính</h5>
+                <div class="card-body">
+                    <form action="#" id="basicform" data-parsley-validate="">
+                        <div class="form-group">
+                            <label class="col-form-label text-sm-right">Tên sản phẩm</label>
+                            <input type="text" required="" placeholder="Nhập tên sản phẩm" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label text-sm-right">Nội dung tóm tắt</label>
+                            <textarea required="" class="form-control"></textarea>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-1 col-form-label text-sm-right">Giá bán</label>
+                            <div class="col-sm-4 mb-3 mb-sm-0 p-1">
+                                <input id="price" type="text" required="" placeholder="Vnđ" class="form-control">
+                            </div>
+                            <div class="col-sm-4 mb-3 mb-sm-0 p-1">
+                                <select class="custom-select d-block w-100" id="status" required="">
+                                    <option value="">Chọn trạng thái...</option>
+                                    <option>Còn hàng</option>
+                                    <option>Hết hàng</option>
+                                    <option>Ngừng bán</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label text-sm-right">Thông tin khuyến mãi</label>
+                            <input data-parsley-type="digits" type="text" required="" placeholder="Nhập thông tin" class="form-control">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- ============================================================== -->
+        <!-- end figure -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- cc input -->
+        <!-- ============================================================== -->
+        <div class="card">
+            <h5 class="card-header">Mô tả chi tiết về sản phẩm</h5>
+            <div class="card-body">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                    <div class="main-content container-fluid p-0">
+                        <div class="email editor">
+                            <div class="col-md-12 p-0">
+                                <div class="form-group">
+                                    <textarea class="form-control" id="summernote" name="editordata" rows="6" placeholder="Viết mô tả tại đây"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ============================================================== -->
+        <!-- end cc input -->
+        <!-- ============================================================== -->
     </div>
     <!-- ============================================================== -->
     <!-- footer -->
