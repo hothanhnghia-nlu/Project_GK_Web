@@ -297,18 +297,26 @@
 						</div>
 						<div class="payments">
 							<div><strong>PHƯƠNG THỨC THANH TOÁN</strong></div><br>
-							<input type="radio" name="select"> Thanh toán khi giao hàng (COD)<br>
-							<input type="radio" name="select"> Thanh toán qua thẻ tín dụng (Card)
-							<div class="text-center">
-								<ul class="footer-payments">
-									<li><a href="#"><i class="fa fa-cc-visa"></i></a></li>
-									<li><a href="#"><i class="fa fa-credit-card"></i></a></li>
-									<li><a href="#"><i class="fa fa-cc-paypal"></i></a></li>
-									<li><a href="#"><i class="fa fa-cc-mastercard"></i></a></li>
-								</ul>
-							</div>
+							<div class="row">
+								<div class="col-xs-12">
+									<input name="collapseGroup" type="radio" data-toggle="collapse" data-target=".collapseTwo.in"> Thanh toán khi giao hàng (COD)<br>
+									<input name="collapseGroup" type="radio" data-toggle="collapse" data-target=".collapseTwo:not(.in)"> Thanh toán qua thẻ tín dụng (Card)
+									<div class="panel-group" id="accordion">
+										<div class="panel panel-default">
+											<div class="collapseTwo panel-collapse collapse">
+												<div class="text-center">
+													<ul class="footer-payments">
+														<li><a href="#"><i class="fa fa-cc-visa"></i></a></li>
+														<li><a href="#"><i class="fa fa-credit-card"></i></a></li>
+														<li><a href="#"><i class="fa fa-cc-paypal"></i></a></li>
+														<li><a href="#"><i class="fa fa-cc-mastercard"></i></a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
 						</div>
-
 
 						<div class="input-checkbox">
 							<input type="checkbox" id="terms">
@@ -317,7 +325,7 @@
 								Tôi đã đọc và chấp nhận các <a href="#">điều khoản</a>
 							</label>
 						</div>
-						<a href="index.html" class="primary-btn order-submit">XÁC NHẬN ĐẶT HÀNG</a>
+						<a href="success.html" class="primary-btn order-submit">XÁC NHẬN ĐẶT HÀNG</a>
 					</div>
 					<!-- /Order Details -->
 				</div>
